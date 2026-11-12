@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nebraska Output Records</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <span class="desktop-title"><a href="" class="home-link">Nebraska Soccer</a></span>
+
+    <div class="top-tabs">
+        <a href="seasontotals.html" class="tab-link">Game View</a>
+        <a href="individualstats.html" class="tab-link">Season Stats</a>
+    </div>
+</div>
+
+
+<!-- Game Selector -->
+<div class="game-selector-container">
+    <select id="game-selector">
+        <option value="ellag">Season Table View</option>
+    </select>
+</div>
+
+<!-- Ella Guyott -->
+<div id="ellag-content" class="game-content active">
+
+    <!-- Offensive / Defensive Buttons -->
+    <div class="stats-toggle">
+        <button class="offensive-btn active">
+            Offensive
+        </button>
+
+        <button class="defensive-btn">
+            Defensive
+        </button>
+    </div>
+
+
+    <!-- Offensive Table -->
+    <div class="offensive-table-container">
+
+        <table class="stats-table offensive-table">
+
+            <thead>
+                <tr>
+                    <th class="sortable">Game</th>
+                    <th class="sortable">Minutes</th>
+                    <th class="sortable">Goals</th>
+                    <th class="sortable">Assists</th>
+                    <th class="sortable">Key Passes</th>
+                    <th class="sortable">Start CAs</th>
+                    <th class="sortable">Outplays</th>
+                    <th class="sortable">Eff. Crosses</th>
+                    <th class="sortable">1v1s</th>
+                    <th class="sortable">Headers</th>
+                    <th class="sortable">SP Earned</th>
+                    <th class="sortable">Shots Off-T</th>
+                    <th class="sortable">Shots On-T</th>
+                    <th class="sortable">Off. Actions</th>
+                    <th class="sortable">Off. A/m</th>
+                    <th class="sortable">Total Actions</th>
+                    <th class="sortable">Total A/m</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+
+                <tr><td>Indiana</td><td>26</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0.12</td><td>11</td><td>0.42</td></tr>
+                <tr><td>Iowa</td><td>50</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>4</td><td>1</td><td>2</td><td>0</td><td>1</td><td>12</td><td>0.24</td><td>19</td><td>0.38</td></tr>
+                <tr><td>Washington</td><td>90</td><td>0</td><td>1</td><td>1</td><td>8</td><td>0</td><td>2</td><td>3</td><td>1</td><td>5</td><td>0</td><td>0</td><td>21</td><td>0.23</td><td>41</td><td>0.46</td></tr>
+                <tr><td>Michigan St.</td><td>82</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>12</td><td>0.15</td><td>33</td><td>0.40</td></tr>
+                <tr><td>Michigan</td><td>90</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>2</td><td>0</td><td>4</td><td>0</td><td>0</td><td>9</td><td>0.10</td><td>33</td><td>0.37</td></tr>
+                <tr><td>Wisconsin</td><td>83</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>1</td><td>4</td><td>0</td><td>0</td><td>9</td><td>0.11</td><td>36</td><td>0.43</td></tr>
+                <tr><td>Maryland</td><td>90</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>2</td><td>1</td><td>1</td><td>5</td><td>0</td><td>0</td><td>14</td><td>0.16</td><td>32</td><td>0.36</td></tr>
+                <tr><td>Rutgers</td><td>90</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td>7</td><td>0.08</td><td>23</td><td>0.26</td></tr>
+                <tr><td>Illinois</td><td>90</td><td>0</td><td>0</td><td>2</td><td>6</td><td>0</td><td>4</td><td>4</td><td>0</td><td>4</td><td>1</td><td>1</td><td>22</td><td>0.24</td><td>43</td><td>0.48</td></tr>
+                <tr><td>USC</td><td>90</td><td>0</td><td>0</td><td>2</td><td>3</td><td>0</td><td>1</td><td>1</td><td>2</td><td>4</td><td>0</td><td>2</td><td>15</td><td>0.17</td><td>32</td><td>0.36</td></tr>
+                <tr><td>UCLA</td><td>90</td><td>0</td><td>0</td><td>0</td><td>5</td><td>1</td><td>2</td><td>2</td><td>0</td><td>3</td><td>0</td><td>0</td><td>12</td><td>0.13</td><td>38</td><td>0.42</td></tr>
+                <tr><td>Purdue</td><td>86</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>1</td><td>10</td><td>0.12</td><td>45</td><td>0.52</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Defensive Table -->
+    <div class="defensive-table-container hidden">
+
+        <table class="stats-table defensive-table">
+
+            <thead>
+                <tr>
+                    <th class="sortable">Game</th>
+                    <th class="sortable">Minutes</th>
+                    <th class="sortable">Tackles</th>
+                    <th class="sortable">Interceptions</th>
+                    <th class="sortable">Regains</th>
+                    <th class="sortable">Blocks</th>
+                    <th class="sortable">Clearances</th>
+                    <th class="sortable">Separations</th>
+                    <th class="sortable">Headers</th>
+                    <th class="sortable">Stop FWD</th>
+                    <th class="sortable">Def. Actions</th>
+                    <th class="sortable">Def. A/m</th>
+                    <th class="sortable">Total Actions</th>
+                    <th class="sortable">Total A/m</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+
+                <tr><td>Indiana</td><td>26</td><td>0</td><td>4</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>8</td><td>0.31</td><td>11</td><td>0.42</td></tr>
+                <tr><td>Iowa</td><td>50</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>7</td><td>0.14</td><td>19</td><td>0.38</td></tr>
+                <tr><td>Washington</td><td>90</td><td>1</td><td>6</td><td>2</td><td>0</td><td>1</td><td>1</td><td>4</td><td>5</td><td>20</td><td>0.22</td><td>41</td><td>0.46</td></tr>
+                <tr><td>Michigan St.</td><td>82</td><td>2</td><td>6</td><td>1</td><td>0</td><td>1</td><td>3</td><td>4</td><td>4</td><td>21</td><td>0.26</td><td>33</td><td>0.40</td></tr>
+                <tr><td>Michigan</td><td>90</td><td>1</td><td>4</td><td>3</td><td>0</td><td>1</td><td>1</td><td>9</td><td>5</td><td>24</td><td>0.27</td><td>33</td><td>0.37</td></tr>
+                <tr><td>Wisconsin</td><td>83</td><td>3</td><td>2</td><td>3</td><td>1</td><td>1</td><td>4</td><td>11</td><td>2</td><td>27</td><td>0.33</td><td>36</td><td>0.43</td></tr>
+                <tr><td>Maryland</td><td>90</td><td>0</td><td>3</td><td>2</td><td>0</td><td>2</td><td>1</td><td>5</td><td>5</td><td>18</td><td>0.20</td><td>32</td><td>0.36</td></tr>
+                <tr><td>Rutgers</td><td>90</td><td>0</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>4</td><td>6</td><td>16</td><td>0.18</td><td>23</td><td>0.26</td></tr>
+                <tr><td>Illinois</td><td>90</td><td>3</td><td>5</td><td>3</td><td>0</td><td>0</td><td>3</td><td>4</td><td>3</td><td>21</td><td>0.23</td><td>43</td><td>0.48</td></tr>
+                <tr><td>USC</td><td>90</td><td>1</td><td>4</td><td>1</td><td>0</td><td>3</td><td>3</td><td>3</td><td>2</td><td>17</td><td>0.19</td><td>32</td><td>0.36</td></tr>
+                <tr><td>UCLA</td><td>90</td><td>2</td><td>6</td><td>3</td><td>0</td><td>0</td><td>0</td><td>7</td><td>8</td><td>26</td><td>0.29</td><td>38</td><td>0.42</td></tr>
+                <tr><td>Purdue</td><td>86</td><td>3</td><td>1</td><td>3</td><td>0</td><td>1</td><td>4</td><td>12</td><td>11</td><td>35</td><td>0.41</td><td>45</td><td>0.52</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    // ==========================================
+    // GAME SELECTOR
+    // ==========================================
+
+    const gameSelector = document.getElementById("game-selector");
+    const gameContents = document.querySelectorAll(".game-content");
+
+    gameSelector.addEventListener("change", function () {
+
+        gameContents.forEach(function (content) {
+            content.classList.remove("active");
+        });
+
+        const selectedContent = document.getElementById(
+            this.value + "-content"
+        );
+
+        if (selectedContent) {
+            selectedContent.classList.add("active");
+        }
+    });
+
+
+    // ==========================================
+    // OFFENSIVE / DEFENSIVE / IMAGE BUTTONS
+    // ==========================================
+
+    document.querySelectorAll(".game-content").forEach(function (game) {
+
+        const offensiveBtn = game.querySelector(".offensive-btn");
+        const defensiveBtn = game.querySelector(".defensive-btn");
+        const imageBtn = game.querySelector(".image-btn");
+
+        const offensiveTable = game.querySelector(".offensive-table-container");
+        const defensiveTable = game.querySelector(".defensive-table-container");
+        const imageContainer = game.querySelector(".image-container");
+
+
+        // OFFENSIVE BUTTON
+        if (offensiveBtn) {
+
+            offensiveBtn.addEventListener("click", function () {
+
+                offensiveTable.classList.remove("hidden");
+                defensiveTable.classList.add("hidden");
+
+                if (imageContainer) {
+                    imageContainer.classList.add("hidden");
+                }
+
+                offensiveBtn.classList.add("active");
+                defensiveBtn.classList.remove("active");
+
+                if (imageBtn) {
+                    imageBtn.classList.remove("active");
+                }
+
+            });
+
+        }
+
+
+        // DEFENSIVE BUTTON
+        if (defensiveBtn) {
+
+            defensiveBtn.addEventListener("click", function () {
+
+                offensiveTable.classList.add("hidden");
+                defensiveTable.classList.remove("hidden");
+
+                if (imageContainer) {
+                    imageContainer.classList.add("hidden");
+                }
+
+                offensiveBtn.classList.remove("active");
+                defensiveBtn.classList.add("active");
+
+                if (imageBtn) {
+                    imageBtn.classList.remove("active");
+                }
+
+            });
+
+        }
+
+
+        // IMAGE BUTTON — only exists on individual games
+        if (imageBtn) {
+
+            imageBtn.addEventListener("click", function () {
+
+                offensiveTable.classList.add("hidden");
+                defensiveTable.classList.add("hidden");
+
+                imageContainer.classList.remove("hidden");
+
+                offensiveBtn.classList.remove("active");
+                defensiveBtn.classList.remove("active");
+                imageBtn.classList.add("active");
+
+            });
+
+        }
+
+    });
+
+
+
+    // ==========================================
+    // TABLE SORTING
+    // ==========================================
+
+    function makeTableSortable(table) {
+
+        const headers = table.querySelectorAll("th.sortable");
+
+        headers.forEach(function (header, columnIndex) {
+
+            header.style.cursor = "pointer";
+
+            header.addEventListener("click", function () {
+
+                const tbody = table.querySelector("tbody");
+
+                if (!tbody) {
+                    return;
+                }
+
+                const rows = Array.from(
+                    tbody.querySelectorAll("tr")
+                );
+
+                const currentDirection =
+                    header.dataset.direction || "none";
+
+                const direction =
+                    currentDirection === "desc"
+                        ? "asc"
+                        : "desc";
+
+
+                // Reset other headers
+                headers.forEach(function (otherHeader) {
+
+                    if (otherHeader !== header) {
+
+                        delete otherHeader.dataset.direction;
+
+                        otherHeader.classList.remove(
+                            "sort-desc",
+                            "sort-asc"
+                        );
+
+                    }
+
+                });
+
+
+                // Set current direction
+                header.dataset.direction = direction;
+
+
+                if (direction === "desc") {
+
+                    header.classList.add("sort-desc");
+                    header.classList.remove("sort-asc");
+
+                } else {
+
+                    header.classList.add("sort-asc");
+                    header.classList.remove("sort-desc");
+
+                }
+
+
+                // Sort rows
+                rows.sort(function (rowA, rowB) {
+
+                    const cellA =
+                        rowA.children[columnIndex]
+                            .textContent
+                            .trim();
+
+                    const cellB =
+                        rowB.children[columnIndex]
+                            .textContent
+                            .trim();
+
+
+                    // Player column
+                    if (columnIndex === 0) {
+
+                        return direction === "desc"
+                            ? cellB.localeCompare(cellA)
+                            : cellA.localeCompare(cellB);
+
+                    }
+
+
+                    // Number columns
+                    const numberA =
+                        parseFloat(cellA) || 0;
+
+                    const numberB =
+                        parseFloat(cellB) || 0;
+
+
+                    return direction === "desc"
+                        ? numberB - numberA
+                        : numberA - numberB;
+
+                });
+
+
+                rows.forEach(function (row) {
+                    tbody.appendChild(row);
+                });
+
+            });
+
+        }
+
+    )}
+
+
+    // Make EVERY stats table sortable
+    document.querySelectorAll(".stats-table").forEach(function (table) {
+        makeTableSortable(table);
+    });
+
+});
+
+
+</script>
+
+</body>
+</html>
